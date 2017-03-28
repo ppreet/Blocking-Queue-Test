@@ -36,6 +36,13 @@ public class BQueue {
 		
 		System.out.println(bq);
 		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
 		//Put more items in the queue
 		for(int i = 10; i >= 5; i-=2){			
 
